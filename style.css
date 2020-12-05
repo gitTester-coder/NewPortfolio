@@ -1,0 +1,186 @@
+body {
+	text-align: center;
+	/* font-family: 'Lemonada', cursive; */
+	font-family: 'Concert One', cursive;
+	/* overflow: hidden; */
+}
+
+
+/* To Make the navigation background colored yellow as default is white in Bootstrap CSS */
+
+.nav-bg-color {
+	 background-color: #f0a500;
+}
+
+
+/* To Make the navigation buttons colored white as default is black in Bootstrap CSS */
+
+/* .nav-button-colors {
+	 color: #f9f9f9!important;
+} */
+
+
+/* Horizontal rule CSS */
+
+.line {
+	border-style: none;
+	border-width: 8px;
+	border-top-style: dotted;
+	width: 5%;
+	/* border-color: #e1ffc2; */
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+
+/* Style for DIV After hr tag for spacing */
+
+.empty {
+	height: 30px;
+}
+
+
+/* HEAD CSS for all Pages  */
+
+.head {
+	color: #f9f9f9;
+	font-size: 7rem;
+	/* padding-bottom: 20px; */
+}
+
+
+/* subtitles CSS for all pages */
+
+.subtitle {
+	color: #41444b;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* PAGEONE */
+
+
+/* Page one or Name Section */
+
+#page-one {
+	 padding-top: 10%;
+	background-color: #f0a500;
+	height: 100vh;
+	/* padding: 7% 15%; */
+}
+
+
+/* PAGETWO */
+
+
+/* Page two or Work section */
+
+#page-two {
+	padding-top: 10%;
+	background-color: #f0a500;
+	height: 100vh;
+	/* padding: 7% 15%; */
+}
+
+
+/* PAGETHREE */
+
+
+/* Page three or passion Section */
+
+#page-three {
+	padding-top: 10%;
+	background-color: #f0a500;
+	height: 100vh;
+	/* padding: 7% 15%; */
+}
+
+
+/* PAGEFOUR */
+
+
+/* PAge four or learn section */
+
+#page-four {
+	padding-top: 10%;
+	background-color: #f0a500;
+	height: 100vh;
+	/* padding: 7% 15%; */
+}
+
+
+/* PAGEFIVE */
+
+
+/* PAge five or free time section */
+
+#page-five {
+	padding-top: 10%;
+	background-color: #f0a500;
+	height: 100vh;
+	/* padding: 7% 15%; */
+}
+
+
+/* Footer section CSS */
+
+#footer {
+	padding-top: 3%;
+	background-color: #f0a500;
+	height: 100vh;
+	padding: 4% 30%;
+}
+
+
+/* Social Icons CSS */
+
+.foot-links {
+	margin: 0 10px 0 10px;
+	color: #fa7d09;
+	color: #fddb3a;
+}
+
+
+/* HOver CSS for social Icons */
+
+.foot-links:hover {
+	color: white;
+}
+
+
+/* FOoter CopyRight CSS */
+
+.copyright {
+	padding-top: 20px;
+	margin-bottom: 0;
+	color: #7c7c7c;
+}
+
+.test{
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* animation when clicked or hovered */
+.color-animation-head{
+	color: #162447;
+}
+/* animation when clicked or hovered */
+.color-animation-sub{
+	color: #f9f9f9;
+}
+
+/* media query for insurance heading for mobile devices */
+@media(max-width:730px){
+	.ins{
+		font-size: 4.9rem;
+	}
+}
+
+/* The social page padding */
+.footer-padding{
+	padding-top: 200px;
+	padding-bottom: 150px;
+}
